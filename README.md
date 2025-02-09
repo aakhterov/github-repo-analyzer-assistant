@@ -68,13 +68,13 @@ There are two ways to interact with the application: an API and a CLI utility, w
 
 ## 2. Requirements and Installation
 
-### 3.1. Requirements
+### 2.1. Requirements
 - Python 3.10 or higher
 - OpenAI API key
 
-### 3.2. Installation
+### 2.2. Installation
 
-#### 3.2.1. WITHOUT Docker
+#### 2.2.1. WITHOUT Docker
 
 - Clone the repository
 - Set up a Python virtual environment, using the specific Python executable for Python 3.10:
@@ -98,7 +98,7 @@ export OPENAI_API_KEY=your_open_ai_key
 python main.py
 ```
 
-#### 3.2.2. WITH Docker
+#### 2.2.2. WITH Docker
 - Clone repository
 - Create docker image
 ```bash
@@ -134,7 +134,7 @@ curl --location 'http://127.0.0.1:5000/api/v1/assistant/create' \
 }'
 ```
 
-#### 3.2.3 Using the CLI utility, if the API was installed using Docker
+#### 2.2.3 Using the CLI utility, if the API was installed using Docker
 
 - Set up a Python virtual environment, using the specific Python executable for Python 3.10:
 ```bash
