@@ -1,0 +1,4 @@
+argparse==1.4.0
+requests==2.32.3
+tenacity==9.0.0
+urllib3==2.3.0

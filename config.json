@@ -1,0 +1,23 @@
+{
+  "models": {
+    "conversation": "gpt-4o",
+    "embedding": "text-embedding-3-small"
+  },
+  "splitter": {
+    "code": {
+      "chunk_size": 800,
+      "chunk_overlap": 0
+    },
+    "nocode": {
+      "chunk_size": 1500,
+      "chunk_overlap": 400
+    }
+  },
+  "vector_store": {
+    "k": 4,
+    "score_threshold": 0.0
+  },
+  "database": {
+    "db_name": "assistants.sqlite3"
+  }
+}
