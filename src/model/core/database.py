@@ -381,7 +381,6 @@ class SQLite(IDatabase):
                                                      ai_message_id: str
                                                      ):
         """
-        TODO
         Updates the status and AI message ID of a thread in the database based on its ID.
         :param thread_id:
 
